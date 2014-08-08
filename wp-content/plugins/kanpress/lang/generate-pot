@@ -1,0 +1,1 @@
+xgettext -k_e -k__ -d kanpress -o lang/kanpress.pot --from-code=UTF-8 -L PHP --package-name=Kanpress --package-version=1.0 *.php

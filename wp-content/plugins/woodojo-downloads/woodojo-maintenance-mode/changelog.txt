@@ -1,0 +1,10 @@
+*** WooDojo Maintenance mode Changelog ***
+
+2012.08.30 - version 1.0.2
+ * /classes/class-woodojo-maintenance-mode.php - RENAMED from woodojo-maintenance-mode.class.php. Add support for settings to allow feeds, trackbacks and XML-RPC when in maintenance mode. Prevent direct file access. Adjust docblock. Add the_title() and the_note() methods with appropriate sanitization to allow for basic HTML in the note content. Move the frontend "active" from wp_footer to a notice to an item on the WordPress Toolbar.
+ * /classes/class-settings.php - RENAMED from settings.class.php. Add settings to allow feeds, trackbacks and XML-RPC when in maintenance mode. Re-organize settings into more appropriate sections.
+ * /templates/vanilla_light/index.php - Use the_title() and the_note() methods to display the title and content from the settings screen. Sanitize URL to the template's stylesheet.
+ * woodojo-maintenance-mode.php - Prevent direct file access.
+
+2012.07.09 - version 1.0.1
+ * /classes/woodojo-maintenance-mode.class.php - wp_die template method was not properly pulling title and note.

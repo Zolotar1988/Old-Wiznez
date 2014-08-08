@@ -1,0 +1,76 @@
+form#BP_SearchFriends{
+    position: relative;
+    width: auto;
+}
+form#BP_SearchFriends input[type=text]{
+    border: 1px solid #CCCCCC;
+    height: auto;
+    padding: 7px 30px 7px 10px;
+    width: 176px;
+	background:url(../images/search_icon.png) no-repeat right center #fff;
+}
+
+form#BP_SearchFriends .BPSF-response{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: auto;
+    padding: 0;
+    position: absolute;
+    top: 31px;
+    width: 216px;
+}
+ul.BPSF-results{
+    float: left;
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding:0;
+	width:100%;
+}
+ul.BPSF-results li{
+	float:left;
+	width:100%;
+	position:relative;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ul.BPSF-results li a{
+	float:left;
+	width:91%;
+	padding:10px;
+}
+ul.BPSF-results li a:hover{
+	background:#006db2;
+}
+.BPSF-memberavatar{
+	float:left;
+	margin-right:7px;
+}
+.BPSF-userdetails{
+	float:left;
+}
+.BPSF-userdetails p{
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul.BPSF-results li a:hover .BPSF-userdetails p{
+	color:#fff;
+}
+a.BPSF-send-msg{
+    background: none repeat scroll 0 0 red;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-size: 10px;
+    left: 62px;
+    line-height: 1;
+    padding: 4px 6px !important;
+    position: absolute;
+    top: 34px;
+    width: auto !important;
+}
+a.BPSF-send-msg:hover{
+	color:#fff !important;
+	background:#000 !important;
+}

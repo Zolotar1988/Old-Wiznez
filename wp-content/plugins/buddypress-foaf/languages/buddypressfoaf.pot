@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-21 23:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: buddypress-foaf.php:92
+msgid "Internal Error, Code:"
+msgstr ""
+
+#: buddypress-foaf.php:102
+msgid "No connection found"
+msgstr ""
+
+#: buddypress-foaf.php:104
+msgid "Your connection to this user"
+msgstr ""
+
+#: buddypress-foaf.php:181
+msgid "Random friends of your friends you might know"
+msgstr ""
+
+#: buddypress-foaf.php:188 buddypress-foaf.php:205 buddypress-foaf.php:305
+msgid "common contacts"
+msgstr ""
+
+#: buddypress-foaf.php:192 buddypress-foaf.php:208
+msgid ""
+"No friends found. Search for some users, add them as friends and come back "
+"to this page!"
+msgstr ""
+
+#: buddypress-foaf.php:195
+msgid "You want to see more? Reload this page!"
+msgstr ""
+
+#: buddypress-foaf.php:199
+msgid "You have most common friends with these users"
+msgstr ""
+
+#: buddypress-foaf.php:225
+msgid "A widget that displays a random friend of a friend"
+msgstr ""
+
+#: buddypress-foaf.php:229
+msgid "Buddypress FOAF (random)"
+msgstr ""
+
+#: buddypress-foaf.php:313
+msgid "Show more users I might know!"
+msgstr ""
+
+#: buddypress-foaf.php:336
+msgid "Do you know this user?"
+msgstr ""
+
+#: buddypress-foaf.php:340
+msgid "Title"
+msgstr ""
+
+#: buddypress-foaf.php:345
+msgid "Optional content to be shown before output"
+msgstr ""
+
+#: buddypress-foaf.php:350
+msgid ""
+"URL (optional) for page that shows more potential friends (use the shortcode "
+"at this page)"
+msgstr ""

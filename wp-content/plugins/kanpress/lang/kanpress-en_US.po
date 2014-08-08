@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kanpress 1.0\n"
+"Report-Msgid-Bugs-To: Israel Viana <isra00@gmail.com>\n"
+"POT-Creation-Date: 2013-04-21 14:32+0200\n"
+"Language-Team: Israel Viana <isra00@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Textdomain-Support: yes\n"
+
+#: html_task.php:14
+msgid "published"
+msgstr ""
+
+#: html_task.php:15
+msgid "auto-draft"
+msgstr ""
+
+#: html_task.php:16
+msgid "pending"
+msgstr ""
+
+#: html_task.php:17
+msgid "draft"
+msgstr ""
+
+#: html_task.php:32
+msgid "Not assigned"
+msgstr ""
+
+#: html_task.php:36 page_board.view.php:64
+msgid "low"
+msgstr ""
+
+#: html_task.php:36 page_board.view.php:64
+msgid "normal"
+msgstr ""
+
+#: html_task.php:36 page_board.view.php:64
+msgid "high"
+msgstr ""
+
+#: html_task.php:37 html_task.php:63 page_board.view.php:60
+msgid "Priority"
+msgstr ""
+
+#: html_task.php:48
+msgid "This task has not been assigned yet"
+msgstr ""
+
+#: html_task.php:51 page_board.php:145 page_board.view.php:80
+msgid "Assigned to"
+msgstr ""
+
+#: html_task.php:59
+msgid "Category"
+msgstr ""
+
+#: html_task.php:69 page_board.view.php:46
+msgid "Description"
+msgstr ""
+
+#: html_task.php:75
+msgid "Created"
+msgstr ""
+
+#: html_task.php:77 html_task.php:126
+msgid "by"
+msgstr ""
+
+#: html_task.php:81
+msgid "Assigned"
+msgstr ""
+
+#: html_task.php:83
+msgid "to"
+msgstr ""
+
+#: html_task.php:88
+msgid "Completed"
+msgstr ""
+
+#: html_task.php:98
+msgid "Respective article"
+msgstr ""
+
+#: html_task.php:105
+msgid "Modified"
+msgstr ""
+
+#: html_task.php:109
+msgid "Create corresponding article"
+msgstr ""
+
+#: html_task.php:115
+msgid "Save"
+msgstr ""
+
+#: html_task.php:116
+msgid "or"
+msgstr ""
+
+#: html_task.php:116 html_task.php:128
+msgid "Remove task"
+msgstr ""
+
+#: html_task.php:125
+msgid "Published"
+msgstr ""
+
+#: page_board.php:26
+msgid "You must write a summary with at least 10 characters"
+msgstr ""
+
+#: page_board.php:141
+msgid "Propose new article"
+msgstr ""
+
+#: page_board.php:142
+msgid "Do you really want to remove this task?\\nThis can't be undone"
+msgstr ""
+
+#: page_board.php:143
+msgid "Creating..."
+msgstr ""
+
+#: page_board.php:144
+msgid "Assign task"
+msgstr ""
+
+#: page_board.php:146
+msgid "Confirm Removal"
+msgstr ""
+
+#: page_board.view.php:3
+msgid "New task"
+msgstr ""
+
+#: page_board.view.php:7
+msgid "Proposed"
+msgstr ""
+
+#: page_board.view.php:15
+msgid "Work in progress"
+msgstr ""
+
+#: page_board.view.php:23
+msgid "Under review"
+msgstr ""
+
+#: page_board.view.php:38
+msgid "Summary"
+msgstr ""
+
+#: page_board.view.php:53
+msgid "Section"
+msgstr ""

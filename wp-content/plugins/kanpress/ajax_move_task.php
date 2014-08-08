@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Change a task status
+ */
+//Load Wordpress API
+if ( !defined( 'WP_PLUGIN_URL' ) ) {
+	require_once( realpath( '../../../' ) . '/wp-config.php' );
+}
+
+/**
+ * @todo Cambiar capability por una propia de Kanpress
+ */
+if ( current_user_can( 'edit_users' ) ) {
+	if ( isset( $_POST[ 'task_id' ] ) ) {
+		/* @todo use TABLE_TASK constant */
+		die( $wpdb->update( $wpdb->prefix . 'kanpress_task', 
+				array( 'status' => $_POST[ 'status' ] ), 
+				array( 'task_id' => $_POST[ 'task_id' ] ) ) );
+	}
+} else {
+	die( 'Permission denied' );
+}

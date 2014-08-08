@@ -1,0 +1,50 @@
+.user_row {
+  margin: 5px 0;
+  border-bottom: 1px solid #F5F5FC;
+  padding: 5px 10px 5px;
+
+  .left {
+    margin-right: 10px;
+    float:left;
+
+    a, img {
+      @include rounded(100px);
+      display: block;
+      width: 50px;
+    }
+  }
+
+  .right {
+    float: left !important;
+
+    .top {
+      color: $rainy_secondary;
+      font-weight: bold;
+    }
+
+    .bottom {
+      color: $rainy;
+      font-size: 10px;
+    }
+  }
+}
+
+
+.user_row:last-of-type {
+  border-bottom: none;
+}
+
+
+.large-4 {
+
+  .user_row {
+
+    .left {
+
+    }
+
+    .right {
+      width: 115px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.emg-multiselect { padding:2px 0 2px 4px; text-align:left;cursor: pointer; }
+.emg-multiselect span.emg-icon { float:right }
+.emg-multiselect-single .emg-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.emg-multiselect-single .emg-multiselect-checkboxes label { padding:5px !important }
+
+.emg-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.emg-multiselect-header ul { font-size:0.9em }
+.emg-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.emg-multiselect-header a { text-decoration:none }
+.emg-multiselect-header a:hover { text-decoration:underline }
+.emg-multiselect-header span.emg-icon { float:left }
+.emg-multiselect-header li.emg-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.emg-multiselect-menu { display:none; padding:3px; position:absolute; z-index:16777271 !important;  text-align: left }
+.emg-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:auto }
+.emg-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px }
+.emg-multiselect-checkboxes label input { position:relative; top:1px }
+.emg-multiselect-checkboxes li { clear:both; font-size:0.8em; padding-right:3px }
+.emg-multiselect-checkboxes li.emg-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.emg-multiselect-checkboxes li.emg-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .emg-multiselect-checkboxes label { border:none }

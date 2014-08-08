@@ -1,0 +1,120 @@
+/*
+ * Easy Media Gallery
+ * Wordpress Admin (Global Style) v.1.0.0
+ * Copyright (c) 2012 GhozyLab, Inc. - http://ghozylab.com/
+*/
+
+.sps_wrap{
+	width:740px;
+}
+
+.sps_section{
+	border:1px solid #ddd;
+	border-bottom:0;
+	background:#f9f9f9;
+}
+
+.sps_opts label{
+	font-size:12px;
+	font-weight:700;
+	width:200px;
+	display:inline-block;
+	vertical-align:middle;	
+}
+.sps_input {
+	padding:30px 10px;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+}
+.sps_opts small{
+	display:block;
+	float:right;
+	width:200px;
+	color:#999;
+}
+.sps_opts input[type="text"], .sps_opts select{
+	width:280px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1em;
+	background:#f3f3f3;
+}
+.sps_input input:focus, .sps_input textarea:focus{
+		background:#fff;
+}
+.sps_input textarea{
+	width:280px;
+	height:175px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1.5em;
+	background:#f3f3f3;
+}
+.sps_title h3 {
+	cursor:pointer;
+	font-size:1em;
+	text-transform: uppercase;
+	margin:0;
+	font-weight:bold;
+	color:#232323;
+	float:left;
+	width:80%;
+	padding:14px 4px;
+}
+
+.sps_title{
+	cursor:pointer;
+	border-bottom:1px solid #ddd;
+	background:#eee;
+	padding:0;
+	}
+
+.sps_title h3 img.inactive{
+	margin:-8px 10px 0 2px;
+	width:32px;
+	height:32px;	
+	background:url('../images/pointer.png') no-repeat 0 0px;
+	float:left;
+	-moz-border-radius:6px;
+	border:1px solid #ccc;
+}
+
+.sps_title h3 img.active{
+	margin:-8px 10px 0 2px;
+	width:32px;
+	height:32px;	
+	background:url('../images/pointer.png') no-repeat  0 -31px;
+	float:left;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border:1px solid #ccc;
+}
+		
+.sps_title h3:hover img{
+	border:1px solid #999;
+}
+
+.sps_title span.submit{
+	display:block;
+	float:right;
+	margin:0;
+	padding:0;
+	width:15%;
+	padding:14px 0;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.sps_table th, .sps_table td{
+	border:1px solid #bbb;
+	padding:10px;
+	text-align:center;
+}
+
+.sps_table th, .sps_table td.feature{
+	border-color:#888;
+	}

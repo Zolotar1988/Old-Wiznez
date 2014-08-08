@@ -1,0 +1,37 @@
+curl -XDELETE 'http://10.1.1.147:9200/techpear/'
+curl -XPUT 10.1.1.147:9200/techpear/ -d '{
+    "settings":{
+        "index":{
+            "analysis":{
+                "analyzer":{
+                    "analyzer_startswith":{
+                        "tokenizer":"keyword",
+                        "filter":"lowercase"
+                    }
+                }
+            }
+        }
+    },
+
+    "mappings":{
+
+    "tags":{
+        "properties":{
+            "tag":{"search_analyzer":"analyzer_startswith","index_analyzer":"analyzer_startswith","type":"string"},
+            "times_used" : {"type" : "integer"}
+        }
+    },
+
+
+        "listings":{
+            "properties":{
+
+                "user_id":{"type":"integer"},
+                "time_workHours" : {"type" : "string"},
+                "applications_evaluationDate" : {"type" : "string"},
+                "compensation_estimatedPay" : {"type" : "string"},
+                "intern_type" : {"type" : "string"}
+            }
+        }
+    }
+}'

@@ -1,0 +1,160 @@
+.tag_suggestion_container {
+
+  .tag_suggestion_input {
+    margin: 0 0 10px;
+    position:relative;
+
+    .tag_suggestion_input_wrap {
+
+      input {
+        margin: 0;
+      }
+    }
+
+    .tag_suggestion_input_suggestions {
+      margin: 0 !important;
+      height: 0;
+      opacity: 1;
+      position: relative;
+      background: #FFF !important;
+      z-index: 10000;
+
+      li {
+        color: $rainy;
+        overflow: hidden;
+        padding: 4px 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+        border-bottom: 1px solid transparent;
+        border-top: 1px solid transparent;
+        background: #fff;
+      }
+
+      li.selected {
+        color: #FFF;
+        background: $blue;
+        margin: 0 !important;
+        padding: 4px 10px;
+        border-bottom: 1px solid $blue;
+        border-top: 1px solid $blue;
+      }
+    }
+  }
+
+  .tag_suggestion_tags {
+
+
+  }
+}
+
+.tag {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  white-space: nowrap;
+  position: relative;
+  margin: 0 11px 2px 0;
+  padding: 0 3px 0 0;
+  width: auto;
+  float: left;
+  color: $blue_secondary;
+  letter-spacing: 0.07em;
+  border-bottom: 1px dotted #809DCB;
+
+  a {
+    color: #7D8796;
+    position: relative;
+    top: 1px;
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 12px;
+  }
+
+  a:hover {
+    color: $blue;
+  }
+
+  i {
+    position: relative;
+    font-size: 11px;
+    top: 0;
+    margin-right: 3px;
+  }
+}
+
+.tag_highlightTransition {
+  @include transition(all, 2s, ease);
+}
+
+.tag_justAdded {
+  background: #6CC2F1;
+  border: 1px solid #3EA7E4;
+  color: #FFF;
+}
+
+.tag_highlighted {
+  //  color: $red;
+  //  border: 1px solid $red;
+}
+
+.tag.not_editAllowed {
+  padding: 0;
+}
+
+.tagsPlaceholder_container {
+  display: inline-block;
+  margin-right: 2px;
+  float: float;
+}
+
+.tag_placeholder {
+  //width: 40px;
+}
+
+.tag:hover {
+  //color: #fff;
+  //background: $site_color;
+}
+
+.tag:hover {
+  //background: #6F6DA3;
+}
+
+
+
+#tag_suggestion_container-interests {
+
+  .interestsCompletedMsg {
+
+    .title {
+
+    }
+
+    .body {
+      letter-spacing: 0.03em;
+      font-size: 13px;
+      padding: 0 0 20px;
+      color: $rainy;
+      font-weight: lighter;
+      line-height: 19px;
+    }
+
+    .separator {
+      height: 7px;
+    }
+  }
+}
+
+.tags_block {
+
+  .left{
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}

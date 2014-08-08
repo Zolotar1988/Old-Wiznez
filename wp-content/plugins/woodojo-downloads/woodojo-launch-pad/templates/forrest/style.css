@@ -1,0 +1,188 @@
+/*-------------------------------------------------------------------------------------------
+
+FORREST THEME FOR WOODOJO LAUNCH PAD
+
+INDEX:
+
+0. RESET
+
+1. SETUP
+-1.1 Defaults
+-1.2 Hyperlinks
+
+2. SITE STRUCTURE & APPEARANCE
+-2.1 Containers & Columns
+-2.2 Header
+-2.3 Content
+-2.4 Footer
+
+3. MISC
+-3.1 Buttons
+-3.2 IE specific styling 
+
+-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* RESET - http://meyerweb.com/eric/tools/css/reset/ | v1.0 | 20080212 */
+/*-------------------------------------------------------------------------------------------*/
+
+body,html{height:100%;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/* Floating & Alignment  */
+.fl{float:left;}
+.fr{float:right;}
+.ac{text-align:center;}
+.ar{text-align:right;}
+
+/* Clear Floats  */
+.col-full:after, #wrapper:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.fix{clear:both;height:1px;overflow:hidden;margin:-1px 0 0;}
+html body * span.clear,html body * div.clear,html body * li.clear,html body * dd.clear{background:none;border:0;clear:both;display:block;float:none;font-size:0;list-style:none;overflow:hidden;visibility:hidden;width:0;height:0;margin:0;padding:0;}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+
+/* 1.1 Defaults */
+
+body  { font: 12px/1.5em Helvetica,Arial,Sans-serif; color: #555; background: #f4f4f4 url(images/bg.jpg) no-repeat left top; }
+h1, h2, h3, h4, h5, h6  { margin: 0; font-family: Dosis, Helvetica, Arial,sans-serif; text-transform: uppercase; color: #fff; font-weight: bold; }
+h1  {font-size: 3em } h2  {font-size: 2.8em;} h3  {font-size: 2.6em;} h4  {font-size: 2.2em;} h5  {font-size: 2em;} h6  {font-size: 1.8em;}
+
+p {margin: 0; }
+
+hr { background-color: #e6e6e6;	border:0; height: 1px; margin-bottom: 20px; }
+
+input, textarea { padding: 5px; border-color: #EFEFEF #ccc #CCCCCC #efefef; border-width:1px; border-style:solid;}
+
+/* 1.2 Hyperlinks */
+
+a:link, a:visited  { color: #3088ff; text-decoration:none;}
+a:hover { color: red; text-decoration:underline;}
+
+h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited,
+h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited  { text-decoration: none; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-decoration: underline;}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. SITE STRUCTURE & APPEARANCE */
+/*-------------------------------------------------------------------------------------------*/
+
+/* 2.1 Containers & Columns */
+#wrapper  { background: #000; background: rgba(0,0,0,0.85); width: 560px; margin: 70px 0 70px 70px; border-radius: 2px; }
+
+
+/* 2.2 Header */
+#header  { padding: 50px 50px 0; clear: both; position: relative; }
+#logo  {  }
+#logo .site-title  { margin: 0 0 0.3em; }
+#logo .site-description  { color: #fff; }
+#logo img  { }
+
+/* 2.3 Content */
+#content { color: #fff; }
+#main { padding: 40px 50px;}
+#main .block { margin-bottom:30px; font-size:13px; }
+#main .block h3 { margin-bottom: 40px; line-height: 60px; }
+
+#main #intro h3 { font-size: 40px; }
+#main #intro p  { font-size: 16px; line-height: 22px; }
+
+#social { position: absolute; top: 60px; right: 40px; }
+#social h3 { font-size: 20px; }
+#social .link  { display: inline-block; }
+#social .link a { display: block; overflow: hidden; width: 16px; height: 0; padding-top: 16px; margin: 0 10px; }
+#social .link .twitter { background: url(images/ico-twitter.png) no-repeat left center;  display:block; }
+#social .link .facebook { background: url(images/ico-facebook.png) no-repeat left center; display:block; }
+#social .link .contact { background: url(images/ico-contact.png) no-repeat left center;  display:block; }
+#social .link .subscribe { background: url(images/ico-subscribe.png) no-repeat left center;  display:block; }
+#social .link a:hover { opacity:0.85; }
+
+#main #countdown { margin: 0 0 90px; }
+#main #countdown h3 { margin: 0; font-size: 12px; font-weight: normal; }
+#main #countdown #timer { width: 520px; height: 80px; text-align: center; margin:0 0 10px; }
+#main #countdown #timer span.countdown_amount { display: block; margin: 0; padding: 0; font: normal bold 40px/16px Dosis, sans-serif;}
+#main #countdown #timer .countdown_section { background: #000; padding: 35px 0 20px; float:left; width: 100px; font-size:11px; display: block; font-style: normal; margin: 0 20px 0 0; font-size: 10px; border-bottom: 2px solid yellow; text-transform: uppercase; }
+
+#main #newsletter {  }
+#main #newsletter p { font-size:14px; margin: 0 0 10px; padding: 0; font: 12px Dosis, sans-serif; text-transform: uppercase; }
+#main #newsletter form input.email { width: 365px; color:#888; border: none; background: #222; padding:5px 8px 4px; height: 20px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius:3px; }
+#main #newsletter form input.email:focus  { background: #fff; color: #333; }
+#main #newsletter form input.submit  { position: relative; top: -1px; }
+
+/* 2.4 Footer */
+#footer{ padding: 20px 50px; color: #fff; }
+#footer img{vertical-align:middle; opacity:0.85;}
+#footer img:hover{opacity:1;}
+#footer span{display:none;}
+#footer .divider { padding:0 8px; }
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 3. MISC */
+/*-------------------------------------------------------------------------------------------*/
+
+/* 3.1 Buttons */
+a.button, 
+a.comment-reply-link, 
+input.submit {
+	display: inline-block;
+	margin: 5px;
+	padding: 8px 13px 9px;
+	border: none;
+	color: white !important;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 -1px 0 hsla(0,0%,0%,.3);
+	text-decoration: none;
+	cursor: pointer;
+	
+	/*Border radius*/
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	/*Background*/
+	background: #000; /*Fallback*/
+}
+
+a.button.large { padding:6px 16px;}
+a.button.small, a.comment-reply-link { padding:0px 10px;}
+
+a.button:hover, 
+a.button.hover, 
+a.button.active,
+input.submit:hover {
+	text-decoration: none !important;
+	/*Background*/
+	background: yellow; /*Fallback*/
+	color: #000!important;
+}
+
+a.button:active,
+a.button.active,
+input.submit:active  {
+	top: 0px!important;
+}
+
+/* 3.2 IE specific styling */
+.ie6 .nav .sf-sub-indicator { display:none; }
+.ie6 .nav li a:hover { text-decoration:none; }
+.ie6 .nav li a.sf-with-ul { padding-right:10px; }
+.ie6 .button, .ie6 .button:visited { margin:0; color:#555 !important; font-weight:normal; } .reply a {  color:#555 !important; }
+.ie7 .nav li a {_height: 0;zoom: 1;} /* IE7 Fix */
+.ie7 .button, .ie7 .button:visited {  padding:7px 6px; margin:0; }
+.ie8 .button, .ie8 .button:visited {  padding:10px 15px; margin:0; }
+

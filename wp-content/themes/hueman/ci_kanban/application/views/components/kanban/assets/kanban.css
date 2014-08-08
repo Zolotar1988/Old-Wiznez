@@ -1,0 +1,210 @@
+html, body {
+  background: #FFF;
+  padding: 20px 50px 20px 110px; }
+
+header#kanban_heading {
+  background: #2A9AE4;
+  color: #FFF;
+  padding: 0 20px;
+  height: 70px;
+  margin: 0 0 10px;
+  line-height: 70px; }
+  header#kanban_heading .left {
+    float: left; }
+    header#kanban_heading .left .title {
+      float: left;
+      margin-right: 20px;
+      font-weight: lighter;
+      font-size: 23px; }
+    header#kanban_heading .left .actions {
+      float: left; }
+      header#kanban_heading .left .actions a {
+        color: #FFF;
+        float: left;
+        margin-right: 10px;
+        font-weight: lighter;
+        font-size: 15px; }
+  header#kanban_heading .right {
+    float: right; }
+    header#kanban_heading .right .section_dropDownActions {
+      float: left;
+      margin-left: 10px; }
+
+#kanban_board {
+  background: #FFF;
+  box-sizing: border-box; }
+  #kanban_board .kanban_section {
+    position: relative;
+    margin-right: 2%;
+    float: left;
+    width: 150px;
+    height: 500px;
+    border-radius: 4px; }
+    #kanban_board .kanban_section .section_title {
+      position: relative;
+      font-size: 22px;
+      font-weight: lighter;
+      line-height: 50px;
+      color: #5D6D86;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid #E7E7E7;
+      padding: 0 0 5px;
+      margin: 0 0 15px; }
+      #kanban_board .kanban_section .section_title .titlex {
+        display: block;
+        float: left; }
+      #kanban_board .kanban_section .section_title .section_dropDownActions {
+        float: right; }
+      #kanban_board .kanban_section .section_title .section_add, #kanban_board .kanban_section .section_title .section_delete {
+        line-height: 55px;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        bottom: 0;
+        width: 30px;
+        text-align: center;
+        cursor: pointer; }
+      #kanban_board .kanban_section .section_title .section_delete {
+        right: 30px; }
+    #kanban_board .kanban_section .task_container {
+      padding: 10px 0;
+      border-top: none;
+      height: 100%; }
+      #kanban_board .kanban_section .task_container .kanban_task {
+        margin: auto;
+        max-width: 322px;
+        position: relative;
+        border-radius: 3px;
+        margin: 0 0 8px;
+        padding: 10px 10px 10px 17px;
+        cursor: move;
+        border: 1px solid #FFF;
+        border-left: none;
+        background: #333342;
+        border-bottom: 1px solid #16161D; }
+        #kanban_board .kanban_section .task_container .kanban_task .tag_color {
+          width: 5px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: -1px;
+          border-radius: 2px 0 0 2px; }
+        #kanban_board .kanban_section .task_container .kanban_task .left {
+          float: left;
+          margin-right: 10px;
+          width: 50px; }
+          #kanban_board .kanban_section .task_container .kanban_task .left img {
+            display: block;
+            border-radius: 100px;
+            width: 50px;
+            height: 50px; }
+        #kanban_board .kanban_section .task_container .kanban_task .right {
+          float: right; }
+        #kanban_board .kanban_section .task_container .kanban_task .task_title {
+          display: block;
+          font-size: 17px;
+          font-weight: lighter;
+          color: #FFF;
+          line-height: 24px;
+          border-bottom: 1px dotted #4B4C4E;
+          padding: 0 0 7px;
+          margin: 0 0 8px; }
+          #kanban_board .kanban_section .task_container .kanban_task .task_title .task_close, #kanban_board .kanban_section .task_container .kanban_task .task_title span {
+            cursor: pointer; }
+        #kanban_board .kanban_section .task_container .kanban_task .task_members a, #kanban_board .kanban_section .task_container .kanban_task .task_members img {
+          display: block;
+          float: left;
+          margin: 0 3px 0 0;
+          width: 30px;
+          height: 30px;
+          border-radius: 100px; }
+        #kanban_board .kanban_section .task_container .kanban_task .task_description {
+          color: #E7E7E7;
+          font-weight: lighter;
+          font-size: 14px;
+          margin: 0 0 10px; }
+        #kanban_board .kanban_section .task_container .kanban_task .task_close {
+          line-height: 39px;
+          position: absolute;
+          right: 10px;
+          top: 0;
+          bottom: 0;
+          color: #FFF;
+          width: 20px;
+          text-align: center;
+          cursor: pointer; }
+
+#newTaskModal .modal-body .left {
+  float: left;
+  width: 360px; }
+#newTaskModal .modal-body .right {
+  width: 160px;
+  float: right; }
+  #newTaskModal .modal-body .right a.btn {
+    display: block;
+    margin: 0 0 3px; }
+#newTaskModal .modal-body .task_activity {
+  margin: 10px 0 0; }
+  #newTaskModal .modal-body .task_activity .task_activity_title {
+    font-size: 17px;
+    margin: 0 0 5px; }
+  #newTaskModal .modal-body .task_activity .task_activity_body {
+    height: 200px;
+    width: 100%;
+    background: #FAFAFE;
+    border: 1px solid #E4E4E9; }
+#newTaskModal .modal-body .card_colorPicker {
+  margin: 10px 0 0; }
+  #newTaskModal .modal-body .card_colorPicker .card_colorPicker_title {
+    font-size: 17px;
+    margin: 0 0 5px; }
+  #newTaskModal .modal-body .card_colorPicker .color_block {
+    display: block;
+    float: left;
+    width: 19px;
+    height: 19px;
+    margin: 0 3px 0 0;
+    cursor: pointer; }
+
+#board_sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.82);
+  z-index: 10000;
+  padding: 20px 20px 0; }
+  #board_sidebar .title {
+    border-top: 1px solid #444;
+    margin: 19px 0 6px;
+    padding: 15px 0 0;
+    color: #FFF;
+    font-weight: lighter;
+    letter-spacing: 0.06em;
+    font-size: 15px; }
+  #board_sidebar .members .listing {
+    margin: 0 0 9px; }
+    #board_sidebar .members .listing a, #board_sidebar .members .listing img {
+      display: block;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin: 0 3px 0 0; }
+  #board_sidebar .members .add input {
+    background: #B6B6B6;
+    border: none !important;
+    border-radius: 0;
+    box-shadow: none !important; }
+  #board_sidebar .activity .activity_row .left {
+    float: left; }
+    #board_sidebar .activity .activity_row .left img, #board_sidebar .activity .activity_row .left a {
+      display: block;
+      width: 50px;
+      height: 50px; }
+
+.task_label {
+  display: block;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px; }

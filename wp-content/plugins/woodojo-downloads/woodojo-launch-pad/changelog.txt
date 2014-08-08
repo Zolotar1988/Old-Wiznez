@@ -1,0 +1,10 @@
+***WooDojo Launch Pad Changelog***
+
+2011.01.31 - version 1.0.1
+ * woodojo-launch-pad.php - Direct access prevention.
+ * classes/class-launch-pad.php - Direct access prevention. Correct filter for adding templates. Print custom before body html. Countdown timer never display if date is in the past. Submit button filter for mailchimp newsletter. WP code standards.
+ * classes/class-settings.php - Direct access prevention. WP code standards.
+ * templates/forrest/index.php - Direct access prevention. Use Maintenance Mode functions.
+ * templates/placeholder/index.php - Direct access prevention. Use Maintenance Mode functions.
+ * templates/ticket/index.php - Direct access prevention. Use Maintenance Mode functions.
+ * templates/vanilla/index.php - Direct access prevention. Use Maintenance Mode functions.

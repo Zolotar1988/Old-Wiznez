@@ -1,0 +1,71 @@
+// Caption
+.table_caption {
+  font-weight: normal;
+  color: $rainy;
+  padding: 0;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  margin: 0 0 15px;
+}
+
+table {
+  width: 100%;
+  //border-radius: 3px;
+  //box-shadow: 0 0 1px #4D4E68;
+  //border-spacing: 0;
+  //border-collapse: collapse;
+  //overflow: hidden;
+
+  // Head
+  thead {
+    background: #FFF;
+    border-bottom: $site_border;
+
+    tr {
+
+      th {
+        font-weight: normal;
+        color: $rainy;
+        padding: 0;
+        font-size: 11px;
+        padding-left: 20px;
+        letter-spacing: 0.07em;
+        height: 46px;
+        line-height: 46px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+
+  // Body
+  tbody {
+
+    tr {
+      background:#fff;
+
+      td {
+        font-size: 11px;
+        color: #5E5E5E;
+        letter-spacing: 0.04em;
+        padding: 15px 0 15px 20px;
+      }
+    }
+
+    tr:nth-child(2n) {
+      background: #fbfbfd;
+    }
+  }
+
+  // Footer
+  tfoot {
+
+    tr {
+
+      td {
+        padding-left: 20px;
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+/* Last.fm Widgets */
+.widget_woodojo_lastfm_profile .profile-box img { width: 50px; height: 50px; }
+.widget_woodojo_lastfm_profile .profile-box img.alignleft { float: left; margin: 0 10px 10px 0; }
+.widget_woodojo_lastfm_profile .profile-box img.alignright { float: right; margin: 0 0 10px 10px; }
+.widget_woodojo_lastfm_profile .profile-box img.aligncentre { display: block; margin: 0 auto; }
+.widget_woodojo_lastfm_profile .profile-box .title { margin: 0; padding: 0; border: 0; background: none; }
+.widget_woodojo_lastfm_profile .profile-box .stats  { display: table; width: 100%; margin: 0 0 1.3em; }
+.widget_woodojo_lastfm_profile .profile-box .stat { display: table-cell; }
+.widget_woodojo_lastfm_profile .profile-box .stat .number { display: block; font-weight: bold; font-size: 2em; text-align: center; }
+.widget_woodojo_lastfm_profile .profile-box .stat .stat-label { display: block; text-align: center; text-transform: uppercase; font-size: 11px; }
+
+.widget_woodojo_lastfm_top_albums li { overflow: hidden; margin-bottom: 0.5em; position: relative; }
+.widget_woodojo_lastfm_top_albums img { float: left; margin-right: 0.5em; }
+.widget_woodojo_lastfm_top_albums .album { font-weight: bold; margin-right: 0.5em; }
+.widget_woodojo_lastfm_top_albums .artist { display: block; }
+.widget_woodojo_lastfm_top_albums .playcount { background: #EBEBEB; font-weight: bold; box-shadow: 0px 0px 1px #333; text-shadow: 2px 2px 2px #FFFFFF; position: absolute; top: 1px; right: 1px; padding: 0.1em 0.6em; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; text-align: right; }
+
+.widget_woodojo_lastfm_top_artists li { overflow: hidden; margin-bottom: 0.5em; position: relative; }
+.widget_woodojo_lastfm_top_artists img { float: left; margin-right: 0.5em; }
+.widget_woodojo_lastfm_top_artists .album { font-weight: bold; margin-right: 0.5em; }
+.widget_woodojo_lastfm_top_artists .artist { display: block; }
+.widget_woodojo_lastfm_top_artists .playcount { background: #EBEBEB; font-weight: bold; box-shadow: 0px 0px 1px #333; text-shadow: 2px 2px 2px #FFFFFF; position: absolute; top: 1px; right: 1px; padding: 0.1em 0.6em; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; text-align: right; }
+
+.widget_woodojo_lastfm_recent_tracks li { overflow: hidden; }
+.widget_woodojo_lastfm_recent_tracks li .track-info { float: left; width: 55%; }
+.widget_woodojo_lastfm_recent_tracks li .track { font-weight: bold; }
+.widget_woodojo_lastfm_recent_tracks li .artist { display: block; color: #999999; }
+.widget_woodojo_lastfm_recent_tracks li .date { float: right; width: 45%; text-align: right; }

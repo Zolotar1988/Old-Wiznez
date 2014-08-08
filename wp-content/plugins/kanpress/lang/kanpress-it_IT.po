@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kanpress 1.0\n"
+"Report-Msgid-Bugs-To: Israel Viana <isra00@gmail.com>\n"
+"POT-Creation-Date: 2013-04-21 14:32+0200\n"
+"PO-Revision-Date: 2012-04-10 03:04+0100\n"
+"Language-Team: Israel Viana <isra00@gmail.com>\n"
+"Last-Translator: Marco Rossi <macitaly@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Textdomain-Support: yes\n"
+
+#: html_task.php:14
+msgid "published"
+msgstr "pubblicato"
+
+#: html_task.php:15
+msgid "auto-draft"
+msgstr "bozza automatica"
+
+#: html_task.php:16
+msgid "pending"
+msgstr "pendente"
+
+#: html_task.php:17
+msgid "draft"
+msgstr "bozza"
+
+#: html_task.php:32
+msgid "Not assigned"
+msgstr "Non assegnata"
+
+#: html_task.php:36 page_board.view.php:64
+msgid "low"
+msgstr "bassa"
+
+#: html_task.php:36 page_board.view.php:64
+msgid "normal"
+msgstr "normale"
+
+#: html_task.php:36 page_board.view.php:64
+msgid "high"
+msgstr "alta"
+
+#: html_task.php:37 html_task.php:63 page_board.view.php:60
+msgid "Priority"
+msgstr "Priorità"
+
+#: html_task.php:48
+msgid "This task has not been assigned yet"
+msgstr "Il compito non è ancora stato assegnato a nessuno"
+
+#: html_task.php:51 page_board.php:145 page_board.view.php:80
+msgid "Assigned to"
+msgstr "Assegnato a"
+
+#: html_task.php:59
+msgid "Category"
+msgstr "categoria"
+
+#: html_task.php:69 page_board.view.php:46
+msgid "Description"
+msgstr "Descrizione"
+
+#: html_task.php:75
+msgid "Created"
+msgstr "Creata"
+
+#: html_task.php:77 html_task.php:126
+msgid "by"
+msgstr "per"
+
+#: html_task.php:81
+msgid "Assigned"
+msgstr "Assegnata"
+
+#: html_task.php:83
+msgid "to"
+msgstr "a"
+
+#: html_task.php:88
+msgid "Completed"
+msgstr "Completata"
+
+#: html_task.php:98
+msgid "Respective article"
+msgstr "Articolo relativo"
+
+#: html_task.php:105
+msgid "Modified"
+msgstr "Modificato"
+
+#: html_task.php:109
+msgid "Create corresponding article"
+msgstr "Crea l'articolo corrispondente"
+
+#: html_task.php:115
+msgid "Save"
+msgstr "Salvare"
+
+#: html_task.php:116
+msgid "or"
+msgstr ""
+
+#: html_task.php:116 html_task.php:128
+msgid "Remove task"
+msgstr "Eliminare compito"
+
+#: html_task.php:125
+msgid "Published"
+msgstr "Pubblicato"
+
+#: page_board.php:26
+msgid "You must write a summary with at least 10 characters"
+msgstr "Il riassunto dev'essere di almeno 10 caratteri"
+
+#: page_board.php:141
+msgid "Propose new article"
+msgstr "Proporre un nuovo articolo"
+
+#: page_board.php:142
+msgid "Do you really want to remove this task?\\nThis can't be undone"
+msgstr "Sicuri di voler eliminare questo compito?\nNon si potrà recuperare"
+
+#: page_board.php:143
+msgid "Creating..."
+msgstr "Sto creando..."
+
+#: page_board.php:144
+msgid "Assign task"
+msgstr "Assegnare compito"
+
+#: page_board.php:146
+msgid "Confirm Removal"
+msgstr "Conferma la rimozione"
+
+#: page_board.view.php:3
+msgid "New task"
+msgstr "Nuovo compito"
+
+#: page_board.view.php:7
+msgid "Proposed"
+msgstr "Proposti"
+
+#: page_board.view.php:15
+msgid "Work in progress"
+msgstr "In lavorazione"
+
+#: page_board.view.php:23
+msgid "Under review"
+msgstr "In attesa di revisione"
+
+#: page_board.view.php:38
+msgid "Summary"
+msgstr "Riassunto"
+
+#: page_board.view.php:53
+msgid "Section"
+msgstr "Sezione"

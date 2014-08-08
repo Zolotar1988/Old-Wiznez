@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Media Gallery v1.2.29\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-12-23 22:09:28+0000\n"
+"Last-Translator: GhozyLab <lang@ghozylab.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: easy-media-gallery.php:143
+#: includes/emg-settings.php:41
+#@ easmedia
+msgid "Settings"
+msgstr "Réglages"
+
+#: easy-media-gallery.php:159
+#@ default
+msgctxt "post type general name"
+msgid "Easy Media Gallery"
+msgstr ""
+
+#: easy-media-gallery.php:160
+#@ default
+msgctxt "post type singular name"
+msgid "Easy Media Gallery"
+msgstr ""
+
+#: easy-media-gallery.php:161
+#@ easmedia
+msgid "Add New Media"
+msgstr ""
+
+#: easy-media-gallery.php:162
+#@ easmedia
+msgid "Easy Media Item"
+msgstr ""
+
+#: easy-media-gallery.php:163
+#@ easmedia
+msgid "Edit Media"
+msgstr ""
+
+#: easy-media-gallery.php:164
+#@ easmedia
+msgid "New Media"
+msgstr ""
+
+#: easy-media-gallery.php:165
+#@ easmedia
+msgid "View Media"
+msgstr ""
+
+#: easy-media-gallery.php:166
+#@ easmedia
+msgid "Search Media"
+msgstr ""
+
+#: easy-media-gallery.php:167
+#@ easmedia
+msgid "No Media Found"
+msgstr ""
+
+#: easy-media-gallery.php:168
+#@ easmedia
+msgid "No Media Found In Trash"
+msgstr ""
+
+#: easy-media-gallery.php:169
+#@ easmedia
+msgid "Parent Media"
+msgstr ""
+
+#: easy-media-gallery.php:170
+#: easy-media-gallery.php:178
+#@ easmedia
+msgid "Easy Media"
+msgstr ""
+
+#: easy-media-gallery.php:240
+#@ easmedia
+msgctxt "column name"
+msgid "Title"
+msgstr ""
+
+#: easy-media-gallery.php:241
+#@ easmedia
+msgid "Thumbnails"
+msgstr ""
+
+#: easy-media-gallery.php:242
+#@ easmedia
+msgid "Type"
+msgstr ""
+
+#: easy-media-gallery.php:243
+#: includes/taxonomy.php:18
+#@ easmedia
+#@ default
+msgid "Categories"
+msgstr "Catégories"
+
+#: easy-media-gallery.php:244
+#@ easmedia
+msgid "ID"
+msgstr ""
+
+#: easy-media-gallery.php:266
+#: easy-media-gallery.php:295
+#@ easmedia
+msgid "None"
+msgstr ""
+
+#: includes/functions/functions.php:196
+#@ default
+msgid "Most Used"
+msgstr ""
+
+#. translators: %s: add new taxonomy label
+#: includes/functions/functions.php:220
+#, php-format
+#@ default
+msgid "+ %s"
+msgstr ""
+
+#: includes/functions/functions.php:419
+#: includes/functions/functions.php:433
+#: includes/functions/functions.php:461
+#@ easmedia
+msgid "Sorter"
+msgstr ""
+
+#: includes/functions/functions.php:434
+#@ easmedia
+msgid "Simply drag the Media up or down and they will be saved in that order. Media at the top will appear first."
+msgstr ""
+
+#: includes/functions/functions.php:438
+#: includes/functions/functions.php:464
+#@ easmedia
+msgid "Sort Media"
+msgstr ""
+
+#: includes/functions/functions.php:465
+#, php-format
+#@ easmedia
+msgid "No items found, why not %screate one%s?\t"
+msgstr ""
+
+#: includes/functions/functions.php:595
+#: includes/functions/functions.php:604
+#@ easmedia
+msgid "Documentation"
+msgstr ""
+
+#: includes/functions/functions.php:605
+#@ easmedia
+msgid "This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide."
+msgstr "Ce plugin est livré avec des vidéos de formation pédagogique qui vous guidera à travers tous les aspects de la création de votre nouvelle galerie de la presse. Nous vous recommandons de suivre ces vidéos pour configurer votre galerie des médias. Ce manuel est uniquement destiné à être un guide de référence."
+
+#: includes/functions/functions.php:660
+#@ easmedia
+msgid "Troubleshooting (issue for version 1.1.7 and below)"
+msgstr ""
+
+#: includes/functions/functions.php:699
+#@ easmedia
+msgid "Comparison"
+msgstr "Comparaison"
+
+#: includes/metaboxes.php:536
+#@ easmedia
+msgid "Media Options"
+msgstr ""
+
+#: includes/metaboxes.php:544
+#@ easmedia
+msgid "Media Type"
+msgstr ""
+
+#: includes/metaboxes.php:545
+#@ easmedia
+msgid "Choose the item type."
+msgstr ""
+
+#: includes/metaboxes.php:560
+#@ easmedia
+msgid "Video Options"
+msgstr ""
+
+#: includes/metaboxes.php:561
+#@ easmedia
+msgid "Paste video URL to field below."
+msgstr ""
+
+#: includes/metaboxes.php:569
+#@ easmedia
+msgid "Video URL"
+msgstr ""
+
+#: includes/metaboxes.php:579
+#@ easmedia
+msgid "Video Size"
+msgstr ""
+
+#: includes/metaboxes.php:580
+#@ easmedia
+msgid "If ON, video size will use the default settings on the control panel."
+msgstr ""
+
+#: includes/metaboxes.php:598
+#@ easmedia
+msgid "Audio Options"
+msgstr ""
+
+#: includes/metaboxes.php:607
+#@ easmedia
+msgid "Audio Path"
+msgstr ""
+
+#: includes/metaboxes.php:623
+#@ easmedia
+msgid "Select Image"
+msgstr ""
+
+#: includes/metaboxes.php:624
+#@ easmedia
+msgid "You can upload image with supported file types: jpg, jpeg, gif, png."
+msgstr ""
+
+#: includes/metaboxes.php:630
+#@ easmedia
+msgid "Image URL"
+msgstr ""
+
+#: includes/metaboxes.php:631
+#@ easmedia
+msgid "Select or upload your image."
+msgstr ""
+
+#: includes/metaboxes.php:639
+#@ easmedia
+msgid "Full-size image control"
+msgstr ""
+
+#: includes/metaboxes.php:640
+#@ easmedia
+msgid "If ON, image which exceeds the specified size limit will be automatically resized. You can change image size limit through plugin control panel."
+msgstr ""
+
+#: includes/metaboxes.php:656
+#@ easmedia
+msgid "Input basic info for this media."
+msgstr ""
+
+#: includes/metaboxes.php:662
+#@ easmedia
+msgid "Media Title"
+msgstr ""
+
+#: includes/metaboxes.php:663
+#@ easmedia
+msgid "Enter a media title."
+msgstr ""
+
+#: includes/emg-settings.php:40
+#@ easmedia
+msgid "Easy Media Gallery Settings"
+msgstr ""
+
+#: includes/taxonomy.php:8
+#@ default
+msgctxt "taxonomy general name"
+msgid "Easy Media Gallery"
+msgstr ""
+
+#: includes/taxonomy.php:9
+#@ default
+msgctxt "taxonomy singular name"
+msgid "Easy Media Gallery"
+msgstr ""
+
+#: includes/taxonomy.php:10
+#@ default
+msgctxt "easmedia"
+msgid "Add New Category"
+msgstr ""
+
+#: includes/taxonomy.php:11
+#@ default
+msgid "Add New Category"
+msgstr ""
+
+#: includes/taxonomy.php:12
+#@ default
+msgid "Edit Category"
+msgstr ""
+
+#: includes/taxonomy.php:13
+#@ default
+msgid "New Category"
+msgstr ""
+
+#: includes/taxonomy.php:14
+#@ default
+msgid "View Category"
+msgstr ""
+
+#: includes/taxonomy.php:15
+#@ default
+msgid "Search Category"
+msgstr ""
+
+#: includes/taxonomy.php:16
+#@ default
+msgid "No Category found"
+msgstr ""
+
+#: includes/taxonomy.php:17
+#@ default
+msgid "No Category found in Trash"
+msgstr ""
+
+#: includes/taxonomy.php:25
+#@ easmedia
+msgid "Emediagallery"
+msgstr ""
+
+#: includes/metaboxes.php:10
+#@ default
+msgid "Media Categories"
+msgstr ""
+
+#: includes/metaboxes.php:671
+#@ easmedia
+msgid "Media Subtitle"
+msgstr ""
+
+#: includes/metaboxes.php:672
+#@ easmedia
+msgid "You can use this field for (ex: author, title track, etc.)"
+msgstr ""
+
+#: includes/metaboxes.php:655
+#@ easmedia
+msgid "Media Information"
+msgstr ""
+
+#: includes/functions/functions.php:610
+#@ easmedia
+msgid "Subscribe and Get Free Updates"
+msgstr ""
+
+#: includes/functions/functions.php:621
+#@ easmedia
+msgid "Share Easy Media Gallery"
+msgstr ""
+
+#: includes/functions/functions.php:631
+#@ easmedia
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/functions/functions.php:677
+#@ easmedia
+msgid "UPGRADE to PRO"
+msgstr "Mise à niveau PRO"
+
+#: includes/metaboxes.php:537
+#@ easmedia
+msgid "<div class=\"emginfobox\">Upgrade to PRO and you can select Image Gallery, Grid Gallery, Photo Albums, Filterable Media, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href=\"edit.php?post_type=easymediagallery&page=comparison\">here</a> or go to Pro Version DEMO <a href=\"http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/\" target=\"_blank\">here</a></div><br>Select videos, images, gallery or audio files."
+msgstr ""
+
+#: includes/metaboxes.php:599
+#@ easmedia
+msgid "Upload audio or paste audio URL on field below. Is it possible to use audio external source."
+msgstr ""
+

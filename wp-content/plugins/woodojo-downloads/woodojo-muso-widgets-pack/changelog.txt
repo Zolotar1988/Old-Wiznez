@@ -1,0 +1,23 @@
+*** WooDojo Muso Widgets Pack Changelog ***
+
+2012.08.20 - version 1.0.4
+ * /widgets/widget-woodojo-lastfm-profile.php - Prevent direct file access.
+ * /widgets/widget-woodojo-lastfm-recent-tracks.php - Prevent direct file access.
+ * /widgets/widget-woodojo-lastfm-top-albums.php - Prevent direct file access.
+ * /widgets/widget-woodojo-lastfm-top-artists.php - Prevent direct file access.
+ * /widgets/widget-woodojo-soundcloud-tracks.php - Add scope to each method. Prevent direct file access.
+ * /widgets/widget-woodojo-soundcloud-playlist.php - Add scope to each method. Prevent direct file access.
+ * /classes/class-soundcloud.php - Add scope to each method. Prevent direct file access.
+ * /classes/class-settings.php - Add missing docblock. Prevent direct file access.
+ * /classes/class-muso-widgets-pack.php - RENAMED to "class-woodojo-muso-widgets-pack.php". Prevent direct file access.
+ * woodojo-muso-widgets-pack.php - Prevent direct file access.
+
+2012.06.22 - version 1.0.3
+ * /widgets/widget-woodojo-soundcloud-playlist.php - Wrong class name was being registered.
+ 
+2012.06.12 - version 1.0.2
+ * /widgets/widget-woodojo-lastfm-profile.php - Decreased API hit's by getting playlist total from user API info
+ * /widgets/widget-woodojo-lastfm-profile.php - Pull 126px image rather than 64px
+ * /widgets/widget-woodojo-lastfm-profile.php - Corrected friends count
+ * /widgets/widget-woodojo-lastfm-profile.php - Corrected playlist count
+ * /widgets/widget-woodojo-lastfm-profile.php - Corrected loved tracks count

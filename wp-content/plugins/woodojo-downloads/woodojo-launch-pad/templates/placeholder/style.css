@@ -1,0 +1,276 @@
+/*-------------------------------------------------------------------------------------------
+
+PLACEHOLDER THEME FOR WOODOJO LAUNCH PAD
+
+INDEX:
+
+0. RESET
+
+1. SETUP
+-1.1 Defaults
+-1.2 Hyperlinks
+
+2. SITE STRUCTURE & APPEARANCE
+-2.1 Containers & Columns
+-2.2 Header
+-2.3 Content
+-2.4 Footer
+
+3. MISC
+-3.1 Buttons
+-3.2 IE specific styling 
+
+-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* RESET - http://meyerweb.com/eric/tools/css/reset/ | v1.0 | 20080212 */
+/*-------------------------------------------------------------------------------------------*/
+
+body,html{height:100%;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/* Floating & Alignment  */
+.fl{float:left;}
+.fr{float:right;}
+.ac{text-align:center;}
+.ar{text-align:right;}
+
+/* Clear Floats  */
+.col-full:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.fix{clear:both;height:1px;overflow:hidden;margin:-1px 0 0;}
+html body * span.clear,html body * div.clear,html body * li.clear,html body * dd.clear{background:none;border:0;clear:both;display:block;float:none;font-size:0;list-style:none;overflow:hidden;visibility:hidden;width:0;height:0;margin:0;padding:0;}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+
+/* 1.1 Defaults */
+
+body  { font: 12px/1.5em Arial,Helvetica,Sans-serif; color: #555; background:#e9e9e9 url(images/bg-grid.png) repeat; }
+
+h1, h2, h3, h4, h5, h6  { margin: 0; font-family:sans-serif; color: #555; font-weight:bold; }
+h1  {font-size: 2em } h2  {font-size: 1.8em;} h3  {font-size: 1.6em;} h4  {font-size: 1.2em;} h5  {font-size: 1em;} h6  {font-size: 0.8em;}
+
+p {margin: 0; }
+
+hr { background-color: #e6e6e6;	border:0; height: 1px; margin-bottom: 20px; }
+
+input, textarea { padding: 5px; border-color: #EFEFEF #ccc #CCCCCC #efefef; border-width:1px; border-style:solid;}
+
+/* 1.2 Hyperlinks */
+
+a:link, a:visited  { color: #3088ff; text-decoration:none;}
+a:hover { color: red; text-decoration:underline;}
+
+h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited,
+h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited  { text-decoration: none; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-decoration: underline;}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. SITE STRUCTURE & APPEARANCE */
+/*-------------------------------------------------------------------------------------------*/
+
+/* 2.1 Containers & Columns */
+#wrapper  { background:url(images/bg-top.png) repeat-x 0px 1px; }
+.col-full  { width: 660px; margin: 0 auto; }
+
+
+/* 2.2 Header */
+#header{padding:110px 0 30px;clear:both;position:relative;}
+#logo  { text-align:center; }
+#logo img  { }
+#logo .site-title  { margin: 0 0 0.3em; }
+#logo .site-title, #logo .site-description  { font-family:Georgia, serif; color: #000; }
+#logo .site-title a { color:#222; font-size:40px; line-height:40px; text-transform:none; font-weight:normal; text-decoration:none; text-shadow: 0 -1px 0 #fff; }
+#logo .site-title a:hover { text-decoration:underline; }
+#logo .site-description { color:#999; font:italic 14px Georgia, serif; text-shadow: 0 1px 0 #fff; }
+
+/* 2.3 Content */
+#content{ background:#fff; border:1px solid #ccc; padding:0; border-radius:6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,.1); -moz-box-shadow: 0px 2px 5px rgba(0,0,0,.1); -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,.1); }
+#main { padding:40px 50px;}
+#main .block { margin-bottom:30px; font-size:13px; }
+#main .block h3 { position: relative; border-bottom:1px solid #e6e6e6; text-align:center; margin-bottom:30px;}
+#main .block h3 span {Êdisplay:block; position: relative; top:10px; background: #fff; padding: 0 15px;}
+
+#main #intro h3 { font-size:18px; }
+
+#main #social {Êtext-align:center; margin-bottom:40px; }
+#main #social h3 { font-size:14px; }
+#main #social .social-links { margin:0 auto; width:500px; }
+#main #social .link { float:left; width:110px; display:inline-block; margin-right:20px;}
+#main #social .link .twitter { background: url(images/ico-twitter.png) no-repeat left center; padding-left:40px; display:block; }
+#main #social .link .facebook { background: url(images/ico-facebook.png) no-repeat left center; padding-left:40px; display:block; }
+#main #social .link .contact { background: url(images/ico-contact.png) no-repeat left center; padding-left:40px; display:block; }
+#main #social .link .subscribe { background: url(images/ico-subscribe.png) no-repeat left center; padding-left:40px; display:block; }
+#main #social .last { margin-right:0;}
+#main #social .link img { vertical-align: middle; }
+#main #social .link a { padding-left:3px; color:#555; text-decoration: none; font-weight: bold; line-height: 30px; }
+#main #social .link a:hover { opacity:0.85; }
+
+#main #countdown { background: #fff url(images/bg-grid.png) repeat; padding:10px 0; border:1px solid #e6e6e6; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+#main #countdown h3 { font-size:14px; background: url(images/bg-countdown-h3.png) no-repeat center bottom; border:none; margin-bottom: 20px; }
+#main #countdown h3 span { background: none;}
+#main #countdown #timer { background: url(images/bg-timer.png) no-repeat top; width:406px; height: 80px; text-align: center; margin:0 auto 10px; padding-left:5px;}
+#main #countdown #timer span.countdown_section { float:left; width: 100px;}
+#main #countdown #timer span.countdown_amount { font-size:36px; color:#fff; text-shadow: 0 1px 2px #000; line-height: 60px;}
+#main #countdown #timer .countdown_section { font-size:11px; color:#555; text-shadow: 0 1px 1px #fff; display: block; line-height: 30px; font-style: normal; text-transform: uppercase; }
+
+#main #newsletter { }
+#main #newsletter p { font-size:14px; font-weight: bold; color: #555; float:left; padding:8px 5px 0px 30px; }
+#main #newsletter form { float:right; padding:0 30px 0 0;  }
+#main #newsletter form input.email { width:150px; color:#888; border: 1px solid #ddd; padding:5px 8px 4px; height: 20px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius:3px; box-shadow: inset 0 2px 4px rgba(0,0,0,.1); -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.1); -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.1); }
+#main #newsletter form input.submit { margin:0 0 0 5px; padding:0; background: url(images/btn-submit.png) no-repeat; width:89px; height: 31px; border:0; cursor: pointer; color:#fff; text-shadow: 0 -1px 0px #777; font-family: sans-serif; font-weight: bold; font-size:13px;  }
+#main #newsletter form input.submit:hover { opacity:0.85; }
+
+/* 2.4 Footer */
+#footer{padding: 30px 0 0; color:#999; text-align: center;}
+#footer p {text-shadow: 0 1px 0 #fff; }
+#footer img{vertical-align:middle; opacity:0.85;}
+#footer img:hover{opacity:1;}
+#footer span{display:none;}
+#footer .divider { padding:0 8px; }
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 3. MISC */
+/*-------------------------------------------------------------------------------------------*/
+
+/* 3.1 Buttons */
+a.button, 
+a.comment-reply-link, 
+#commentform #submit,
+#contact-page .submit {
+	display: inline-block;
+	margin: 5px;
+	padding: 3px 13px;
+	border: 1px solid #4081af;
+	border-bottom-color: #20559a;
+	color: white !important;
+	text-align: center;
+	text-shadow: 0 -1px 0 hsla(0,0%,0%,.3);
+	text-decoration: none;
+	
+	/*Border radius*/
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	/*Background*/
+	background: #237fd7; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #52a8e8),
+					color-stop(1, #2e76cf)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#52a8e8 20%,
+					#2e76cf 100%
+				);
+	
+	/*Box shadow*/
+	-webkit-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, 
+						inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/, 
+						0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+	-moz-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, 
+					inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/, 
+					0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+	box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, 
+				inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/, 
+				0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+}
+
+a.button.large { padding:6px 16px;}
+a.button.small, a.comment-reply-link { padding:0px 10px;}
+
+a.button:hover, 
+a.button.hover, 
+a.button.active,
+a.comment-reply-link:hover, 
+#commentform #submit:hover,
+#contact-page .submit:hover {
+	text-decoration: none !important;
+	/*Background*/
+	background: #0073d2; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #3e9ee5),
+					color-stop(1, #1666ca)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#3e9ee5 20%,
+					#1666ca 100%
+				);
+}
+
+a.button:active,
+a.button.active  {
+	border-color: #20559a;
+	
+	/*Box shadow*/
+	-webkit-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+						0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+	-moz-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+					0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+	box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+				0 1px 0 hsla(0, 100%, 100%, 1) /*Shadow*/;
+}
+
+a.button.inactive,{
+	border: 1px solid #d5d5d5;
+	border-bottom-color: #e6e2e2;
+	color: #aeaeae;
+	text-shadow: 0 1px 0 white;
+	
+	/*Background*/
+	background: #e8e8e8; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #f3f3f3),
+					color-stop(1, #e6e6e6)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#f3f3f3 20%,
+					#e6e6e6 100%
+				);
+	
+	/*Box shadow*/
+	-webkit-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.5) /*Top*/, 
+						inset 0 0 2px hsla(0,100%,100%,.1) /*Shine*/, 
+						0 1px 0 hsla(0, 100%, 100%, .7) /*Shadow*/;
+	-moz-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.5) /*Top*/, 
+					inset 0 0 2px hsla(0,100%,100%,.1) /*Shine*/, 
+					0 1px 0 hsla(0, 100%, 100%, .7) /*Shadow*/;
+	box-shadow: inset 0 1px 0 hsla(0,100%,100%,.5) /*Top*/, 
+					inset 0 0 2px hsla(0,100%,100%,.1) /*Shine*/, 
+					0 1px 0 hsla(0, 100%, 100%, .7) /*Shadow*/;
+}
+
+/* 3.2 IE specific styling */
+.ie6 .nav .sf-sub-indicator { display:none; }
+.ie6 .nav li a:hover { text-decoration:none; }
+.ie6 .nav li a.sf-with-ul { padding-right:10px; }
+.ie6 .button, .ie6 .button:visited { margin:0; color:#555 !important; font-weight:normal; } .reply a {  color:#555 !important; }
+.ie7 .nav li a {_height: 0;zoom: 1;} /* IE7 Fix */
+.ie7 .button, .ie7 .button:visited {  padding:7px 6px; margin:0; }
+.ie8 .button, .ie8 .button:visited {  padding:10px 15px; margin:0; }
+

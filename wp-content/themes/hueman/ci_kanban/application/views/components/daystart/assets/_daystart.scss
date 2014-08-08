@@ -1,0 +1,43 @@
+.queue_item {
+  font-weight: lighter;
+  line-height: 60px;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 18px;
+  background: #FFF;
+  border-bottom: 1px solid #EEE;
+  color: #373747;
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
+
+.queue_item:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+.queue_item_current {
+  background: #FA173C;
+  color: #FFF;
+  font-weight: lighter;
+  text-align: center;
+  padding: 60px 0;
+
+  .top {
+    font-size: 27px;
+    margin: 0 0 15px;
+  }
+
+  .mid {
+    font-size: 21px;
+  }
+
+  .bottom {
+
+  }
+}

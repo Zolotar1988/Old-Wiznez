@@ -1,0 +1,97 @@
+# Copyright (C) 2014 PresenPress
+# This file is distributed under the same license as the PresenPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PresenPress 0.2.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/presenpress\n"
+"POT-Creation-Date: 2014-03-02 11:31:02+00:00\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: presenpress.php:298
+msgid "Presentations"
+msgstr "プレゼンテーション"
+
+#: presenpress.php:300
+msgid "Presentation"
+msgstr "プレゼンテーション"
+
+#: presenpress.php:301
+msgid "Add New Presentation"
+msgstr "プレゼンテーションを新規作成"
+
+#: presenpress.php:302
+msgid "Edit Presentation"
+msgstr "プレゼンテーションを編集"
+
+#: presenpress.php:303
+msgid "Add New"
+msgstr "新規作成"
+
+#: presenpress.php:304
+msgid "New Presentation"
+msgstr "新規プレゼンテーション"
+
+#: presenpress.php:305
+msgid "View Presentation"
+msgstr "プレゼンテーションを表示"
+
+#: presenpress.php:306
+msgid "No Presentations found."
+msgstr "プレゼンテーションが見つかりません。"
+
+#: presenpress.php:307
+msgid "No Presentations found in Trash."
+msgstr "ゴミ箱にプレゼンテーションはありません。"
+
+#: presenpress.php:311
+msgid "Search Presentations"
+msgstr "プレゼンテーションを検索"
+
+#: presenpress.php:346
+msgid "Presentation Settings"
+msgstr "プレゼンテーション設定"
+
+#: presenpress.php:355
+msgid "Presentation Styles"
+msgstr "プレゼンテーションのスタイル"
+
+#: presenpress.php:364
+msgid "Translators"
+msgstr "翻訳者"
+
+#: presenpress.php:398
+msgid "Theme:"
+msgstr "テーマ"
+
+#: presenpress.php:425
+msgid "Browsing History:"
+msgstr "ブラウジング履歴"
+
+#: presenpress.php:450
+msgid "Transtion:"
+msgstr "トランジション"
+
+#. Plugin Name of the plugin/theme
+msgid "PresenPress"
+msgstr ""
+
+#. #-#-#-#-#  presenpress.pot (PresenPress 0.2.3)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  presenpress.pot (PresenPress 0.2.3)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wpist.me/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Presentation with WordPress + Leap Motion."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Takayuki Miyauchi"
+msgstr ""

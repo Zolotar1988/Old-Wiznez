@@ -1,0 +1,33 @@
+#search_filter_module {
+  background: none repeat scroll 0 0 #FBFBFB;
+  border: 1px solid #E7E9ED;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  padding: 10px;
+
+  form {
+    max-width: none;
+
+    .row {
+      width: 220px;
+      margin-left: 0;
+      margin-right: 25px;
+      float: left;
+
+      label {
+        line-height: 15px;
+        margin: 0 0 5px;
+      }
+
+      input, select {
+        margin: 0;
+      }
+    }
+
+    .row:last-child {
+      margin-right: 0;
+    }
+  }
+}
