@@ -1,7 +1,0 @@
-.quicktags-toolbar, #post-status-info, #wp-content-editor-tools {
-	display: none!important;
-}
-
-.js .tmce-active .wp-editor-area {
-    color: black;
-}

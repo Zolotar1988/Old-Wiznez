@@ -1,5 +1,0 @@
-@mixin css3-calc($property, $operation) {
-  #{$property}: -moz-calc(#{$operation}) !important;
-  #{$property}: -webkit-calc(#{$operation}) !important;
-  #{$property}: calc(#{$operation}) !important;
-}

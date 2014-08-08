@@ -1,5 +1,0 @@
-
-# BEGIN Buddypress Group Documents plugin
-Order Allow,Deny
-Deny from all
-# END Buddypress Group Documents plugin
